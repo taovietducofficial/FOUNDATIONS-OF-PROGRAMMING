@@ -1,0 +1,34 @@
+💻 Tổng hợp lệnh Git quan trọng dành cho Developer 🚀
+Git là một công cụ không thể thiếu đối với lập trình viên trong việc quản lý mã nguồn và làm việc nhóm hiệu quả. Dưới đây là danh sách các lệnh Git quan trọng giúp bạn làm chủ Git một cách dễ dàng!
+
+🔹 Khởi tạo và sao chép repository
+git init → Khởi tạo repository mới
+git clone <repo_url> → Sao chép một repository từ GitHub/GitLab
+
+🔹 Làm việc với nhánh (Branch)
+git branch → Liệt kê tất cả các nhánh
+git branch <branch> → Tạo nhánh mới
+git checkout <branch> → Chuyển sang một nhánh khác
+git merge <branch> → Gộp nhánh vào nhánh hiện tại
+
+🔹 Làm việc với remote repository
+git remote -v → Kiểm tra danh sách các remote
+git pull origin <branch> → Lấy thay đổi mới nhất từ remote
+git push origin <branch> → Đẩy thay đổi lên remote
+
+🔹 Kiểm tra lịch sử commit
+git log → Xem lịch sử commit đầy đủ
+git log --oneline → Xem lịch sử commit dưới dạng ngắn gọn
+
+🔹 Khôi phục và hoàn tác thay đổi
+git revert <commit> → Hoàn tác một commit nhưng vẫn giữ lịch sử
+git reset <commit> → Đưa repository về trạng thái của commit đó
+
+🔹 Làm việc với tag
+git tag → Liệt kê tất cả tag
+git tag -a v1.0 -m "tag" → Tạo một annotated tag
+
+🔹 Cấu hình thông tin cá nhân
+git config --global user.name "name" → Cấu hình tên người dùng
+git config --global user.email "email" → Cấu hình email người dùng
+
